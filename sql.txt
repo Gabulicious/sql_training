@@ -1,0 +1,33 @@
+Highschool data base
+
+departments->id,name
+
+board_management->id,department_id,name,position,salary
+
+administration->id,department_id,name,position,salary
+
+support staff->id,department_id,name,position,salary
+
+teachers->id,department_id,name,position,salary
+
+students->id,department_id,name,class,fee_balance
+
+science->id,teachers_id,name,position,salary
+
+maths->id,teachers_id,name,position,salary
+
+languages->id,teachers_id,name,position,salary
+
+humanities->id,teachers_id,name,position,salary
+
+boarding->id,teachers_id,name,position,salary
+
+git init
+git add .
+git commit -m 'first commit'
+git remote add origin https://github.com/Gabulicious/sql_training.git
+git push -u origin main
+
+
+
+
